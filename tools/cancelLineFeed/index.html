@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Line canceler</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js"
+            integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+            crossorigin="anonymous"></script>
+    <!-- my script -->
+    <script src="./main.js"></script>
+</head>
+<body>
+    <h1> New Line Canceler</h1>
+    <p>
+    PDFの文章をコピーしてGoogle翻訳に貼り付けたりすると改行が入ってしまうので、自動で改行を取り除くスクリプトがほしかった。
+    </p>
+
+    <div>
+        <p>Input</p>
+        <textarea id="input" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <input id="convert" type="button" value="delete new line">
+    </div>
+
+    <div>
+        <p>Output</p>
+        <textarea id="output"  cols="30" rows="10"></textarea>
+    </div>
+</body>
+</html>
