@@ -7,6 +7,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js"
             integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
             crossorigin="anonymous"></script>
+    <!-- clipboard -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
     <!-- my script -->
     <script src="./main.js"></script>
 </head>
@@ -28,6 +30,9 @@
     <div>
         <p>Output</p>
         <textarea id="output"  cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <button class="btn" data-clipboard-target="#output">copy</button>
     </div>
 </body>
 </html>

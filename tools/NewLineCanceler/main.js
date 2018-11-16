@@ -1,4 +1,6 @@
+var clipboard = null;
 $(document).ready(function(){
+    new ClipboardJS('.btn');
     $('#convert').on('click',function(){
         var text = $('#input').val();
 
