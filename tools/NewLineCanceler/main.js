@@ -8,4 +8,7 @@ $(document).ready(function(){
 
         $('#output').val(text);
     });
+    $('#clear').on('click',function(){
+        $('#input').val('');
+    });
 });
