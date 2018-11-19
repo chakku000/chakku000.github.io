@@ -1,0 +1,13 @@
+input,button{
+    display: inline-block;
+    border: solid 1px #aaaaaa;
+    margin-left: 1.0em;
+    text-decoration: none;
+    border-radius:3px;
+}
+
+#convert{
+    margin-top:1em;
+    padding:0.5em;
+    font-weight:bold;
+}

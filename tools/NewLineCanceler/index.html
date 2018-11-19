@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
     <!-- my script -->
     <script src="./main.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <h1> New Line Canceler</h1>
@@ -19,9 +21,8 @@
     </p>
 
     <div>
-        <p>Input</p>
+        <p>Input<input type="button" id="clear" value="clear"></p>
         <textarea id="input" cols="30" rows="10"></textarea>
-        <input type="button" id="clear" value="clear">
     </div>
 
     <div>
@@ -29,11 +30,8 @@
     </div>
 
     <div>
-        <p>Output</p>
+        <p>Output<button class="btn" data-clipboard-target="#output">copy</button></p>
         <textarea id="output"  cols="30" rows="10"></textarea>
-    </div>
-    <div>
-        <button class="btn" data-clipboard-target="#output">copy</button>
     </div>
 </body>
 </html>
