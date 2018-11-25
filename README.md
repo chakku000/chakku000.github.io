@@ -1,10 +1,21 @@
-## ちゃっくだょ〜
+## chakku's github.io
 
-## ぽいぽい
+## Social
+
+[Twitter](https://twitter.com/chakku_000)
+[Github](https://github.com/chakku000)
+[Blog](http://chakku.hatenablog.com/)
 
 ## Tools
 
 - [NewLineCanceler](/tools/NewLineCanceler/)
+
+## Other
+
+- [Libray for competitive programming](https://github.com/chakku000/ProgramingContest/tree/master/library)
+- [dotfiles](https://github.com/chakku000/dotfiles)
+
+
 
 <!--
 You can use the [editor on GitHub](https://github.com/chakku000/chakku000.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
