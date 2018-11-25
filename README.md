@@ -12,12 +12,10 @@
 
 - [NewLineCanceler](/tools/NewLineCanceler/)
 
-<!--
 ## Other
 
 - [Libray for competitive programming](https://github.com/chakku000/ProgramingContest/tree/master/library)
 - [dotfiles](https://github.com/chakku000/dotfiles)
--->
 
 
 
