@@ -1,12 +1,10 @@
 # chakku's github.io
 
-<!-- 
 ## Social
 
 [Twitter](https://twitter.com/chakku_000)
 [Github](https://github.com/chakku000)
 [Blog](http://chakku.hatenablog.com/)
--->
 
 ## Tools
 
