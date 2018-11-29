@@ -1,5 +1,3 @@
-## chakku's github.io
-
 ## Social
 
 - [Twitter](https://twitter.com/chakku_000)
