@@ -1,0 +1,16 @@
+input.tbi{
+    width:40px;
+    border: 1px solid #7f9db9;
+}
+
+input#btn{
+    width:60px;
+    height:40px;
+    border: 1px solid #aa33dd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+canvas{
+    border: 2px solid;
+}

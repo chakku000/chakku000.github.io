@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Thermophoresis </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+        <script src="./main.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Thermophoresis</h1>
+        <h5>初期値として熱を与えたときの、単位時間毎の熱の拡散を計算する</h5>
+        <h5>下の入力欄で初期値を決定する。決定しcalcボタンをクリックすると計算される。</h5>
+        <h5>右のコントローラのphaseの値(0~100)を変えるとその値時間後の熱の広がりを下のcanvasに表示する</h5>
+        <div id="input-table"></div>
+        <div>
+            <input type="button" id="btn" value="calc"></input>
+        </div>
+        <div>
+            <canvas id="main-canvas" width="600" height="600"></canvas>
+        </div>
+        <script> window.onload = main() </script>
+    </body>
+</html>
