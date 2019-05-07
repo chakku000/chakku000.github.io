@@ -57,8 +57,8 @@ var read_table = function(){
 // canvasをリセット
 var set_canvas = function(){
     canvas = document.getElementById('main-canvas');
-    var wsize = "" + cellw * vertical+ "px";
-    var hsize = "" + cellh * horizon + "px";
+    var wsize = "" + cellw * horizon + "px";
+    var hsize = "" + cellh * vertical + "px";
     canvas.setAttribute('width',wsize);
     canvas.setAttribute('height',hsize);
     ctx = canvas.getContext('2d');
@@ -87,7 +87,6 @@ var write_text = function(text,x,y){
     else if(f >= 30) s = "#FFB2B8";
     else if(f >= 20) s = "#FFCCD0";
     else if(f >= 10) s = "#FFCCD0";
-    console.log(s);
     ctx.fillStyle=s;
     //ctx.fillStyle="rgb(255,0,0)";
     ctx.fillRect(y*cellw,x*cellh,cellw,cellh);
@@ -98,8 +97,8 @@ var write_text = function(text,x,y){
 var write_grid = function(){
     for(i=1;i<vertical;i++){
         for(j=1;j<horizon;j++){
-            line(i*cellw,0,i*cellw,horizon*cellh);
-            line(0,i*cellh,vertical*cellw,i*cellh)
+            line(j*cellw,0,j*cellw,vertical*cellh);
+            line(0,i*cellh,horizon*cellw,i*cellh)
         }
     }
 };
@@ -110,7 +109,7 @@ var update_canvas = function(data){
             write_text(String(data[i][j]).substr(0,5),i,j);
         }
     }
-
+    console.log("write grid",vertical,horizon);
     write_grid();
 };
 
@@ -150,16 +149,18 @@ let main = function(){
     // GUI
     const gui = new dat.GUI();
     var plate = new Plate();
-    var vsize = gui.add(plate,'vertical',1,15,1).listen();
-    var hsize = gui.add(plate,'horizon',1,15,1).listen();
-    var phasebar = gui.add(plate,'phase',0,100,1).listen();
+    var vsize = gui.add(plate,'vertical',1,15,1);
+    var hsize = gui.add(plate,'horizon',1,15,1);
+    var phasebar = gui.add(plate,'phase',0,100,1);
     vsize.onFinishChange(function(value){
         vertical = value;
         update_table();
+        update_canvas(init_thermo);
     });
     hsize.onFinishChange(function(value){
         horizon = value;
         update_table();
+        update_canvas(init_thermo);
     });
     phasebar.onFinishChange(function(value){
         update_canvas(thermos[value]);
