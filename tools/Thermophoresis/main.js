@@ -75,6 +75,23 @@ var line = function(sx,sy,tx,ty){
 
 var write_text = function(text,x,y){
     ctx.clearRect(y*cellw,x*cellh,cellw,cellh);
+    var f = Math.floor(parseFloat(text)) % 256;
+    var s = "rgb(255,255,255)";
+    if(f >= 100) s = "#ff003f";
+    else if(f >= 90) s = "#FF1952";
+    else if(f >= 80) s = "#FF3265";
+    else if(f >= 70) s = "#FF4C79";
+    else if(f >= 60) s = "#FF668C";
+    else if(f >= 50) s = "#FF7F9F";
+    else if(f >= 40) s = "#FF99B2";
+    else if(f >= 30) s = "#FFB2B8";
+    else if(f >= 20) s = "#FFCCD0";
+    else if(f >= 10) s = "#FFCCD0";
+    console.log(s);
+    ctx.fillStyle=s;
+    //ctx.fillStyle="rgb(255,0,0)";
+    ctx.fillRect(y*cellw,x*cellh,cellw,cellh);
+    ctx.fillStyle="rgb(0,0,0)";
     ctx.fillText(text,y*cellw+5,x*cellh+cellh/2+10,cellw);
 };
 
@@ -105,7 +122,6 @@ var show2d = function(matrix){
         }
         s += "\n";
     }
-    console.log(s);
 }
 
 var calculate = function(){
@@ -165,7 +181,6 @@ let main = function(){
         set_canvas();
         update_canvas(init_thermo);
         calculate();
-        console.log(thermos);
     });
 
 };
