@@ -7,7 +7,7 @@
 ## Tools
 
 - [NewLineCanceler](/tools/NewLineCanceler/)
-- [Thermophoresis](/tool/Thermophoresis/)
+- [Thermophoresis](/tools/Thermophoresis/)
 
 ## Slides
 
