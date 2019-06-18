@@ -14,6 +14,27 @@
 - [Android FRP(ja)](/slide/Android-FRP.pdf)
 - [Race Detection Algorithm(ja)](/slide/race-detection-algorithm.pdf)
 
+## Acheivement
+
+- The 2018 ACM-ICPC Japan National On-Line First Round Contest
+    - 22th/IQ1
+- The 2017 ACM-ICPC Asia Nakhon Pathom Regional Contest
+    - 15th/IQ1
+- The 2017 ACM-ICPC Asia Tsukuba Regional Contest
+    - 14th/IQ1
+- The 2017 ACM-ICPC Japan National On-Line First Round Contest
+    - 20th/IQ1
+- The 2016 ACM-ICPC Japan National On-Line First Round Contest
+    - 97th/nikku
+
+## Research
+- 第198回ソフトウェア工学研究発表会
+    - [ハイブリッド競合検査の負荷分散を考慮した並列化](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=186618&item_no=1)
+- SCAM18
+    - DOI: 10.1109/SCAM.2018.00033 
+- PPL2019
+    - 組込みシステム向けFRP言語の静的スケジューリングを用いた並列化(ポスター)
+
 ## Other
 
 [Libray for competitive programming](https://github.com/chakku000/ProgramingContest/tree/master/library)  
