@@ -16,6 +16,8 @@
 
 ## Acheivement
 
+- ISUCON8 本戦
+
 - The 2018 ACM-ICPC Japan National On-Line First Round Contest
     - 22th/IQ1
 - The 2017 ACM-ICPC Asia Nakhon Pathom Regional Contest
@@ -34,6 +36,8 @@
     - DOI: 10.1109/SCAM.2018.00033 
 - PPL2019
     - 組込みシステム向けFRP言語の静的スケジューリングを用いた並列化(ポスター)
+- SIGEMB51
+    - 小規模組込み向けFRP言語のための並列実行モデル(short paper & poster)
 
 ## Other
 
