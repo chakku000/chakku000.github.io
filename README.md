@@ -45,6 +45,8 @@
 
 [dotfiles](https://github.com/chakku000/dotfiles)
 
+[Binary Eater -Datarace Detection Algorithm and Implementation-](/tech-book/eratta.html)
+
 
 
 <!--
