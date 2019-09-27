@@ -44,11 +44,12 @@
 
 ## Other
 
-[Libray for competitive programming](https://github.com/chakku000/ProgramingContest/tree/master/library)  
+- [Libray for competitive programming](https://github.com/chakku000/ProgramingContest/tree/master/library)  
 
-[dotfiles](https://github.com/chakku000/dotfiles)
+- [dotfiles](https://github.com/chakku000/dotfiles)
 
-[Binary Eater -Datarace Detection Algorithm and Implementation- 修正](/tech-book/eratta.html)
+- [Binary Eater -Datarace Detection Algorithm and Implementation-](https://booth.pm/ja/items/1573281)
+    - [正誤表](/tech-book/eratta.html)
 
 
 
