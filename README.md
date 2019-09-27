@@ -32,12 +32,15 @@
 ## Research
 - 第198回ソフトウェア工学研究発表会
     - [ハイブリッド競合検査の負荷分散を考慮した並列化](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=186618&item_no=1)
-- SCAM18
+- SCAM18 (国際会議，査読あり)
     - DOI: 10.1109/SCAM.2018.00033 
 - PPL2019
     - 組込みシステム向けFRP言語の静的スケジューリングを用いた並列化(ポスター)
 - SIGEMB51
     - 小規模組込み向けFRP言語のための並列実行モデル(short paper & poster)
+- SPLASH2019/REBELS2019
+    - 査読有り国際会議
+    - Towards a Statically Scheduled Parallel Execution of an FRP Langauge for Embedded Systems
 
 ## Other
 
