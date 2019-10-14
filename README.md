@@ -58,6 +58,15 @@
 - 2018.3 第198回ソフトウェア工学研究発表会
     - [ハイブリッド競合検査の負荷分散を考慮した並列化](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=186618&item_no=1)
 
+
+## Internship
+
+- 2018.8~2018.9 DMM.com 動画配信事業部
+    - https://twitter.com/yanoshi/status/1058263855279759361?s=20
+- 2017.10 ~ 2018.8 株式会社いい生活
+- 2017.5?6? Wantedly (5days)
+
+
 ## Other
 
 - [Libray for competitive programming](https://github.com/chakku000/ProgramingContest/tree/master/library)  
