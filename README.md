@@ -4,10 +4,12 @@
 - [Github](https://github.com/chakku000)
 - [Blog](http://chakku.hatenablog.com/)
 
+<!--
 ## Tools
 
 - [NewLineCanceler](/tools/NewLineCanceler/)
 - [Thermophoresis](/tools/Thermophoresis/)
+-->
 
 ## Slides
 
