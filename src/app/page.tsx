@@ -40,7 +40,7 @@ export default function Home() {
                     </div>
                   </td>
                   <td>
-                    <span className="text-blue-500 hover:text-blue-800">@chakku_000</span>
+                    <a href="https://x.com/chakku_000" target="_blank"><span className="text-blue-500 hover:text-blue-800">@chakku_000</span></a>
                   </td>
                 </tr>
                 <tr>
