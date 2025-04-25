@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Playfair_Display} from "next/font/google"; 
+import { Playfair_Display } from "next/font/google";
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
@@ -14,7 +14,7 @@ export default function Home() {
             <Image src="/chakku_logo.jpg" alt="logo" width="128" height="128" className="border-slate-600 border-2"
               style={{
                 borderRadius: '50%',
-              }}/>
+              }} />
             <div className="w-3xs flex items-center my-3">
               <div className={`w-full ps-5`}>
                 <div className={`text-xl ${playfairDisplay.className}`}>chakku</div>
@@ -85,9 +85,58 @@ export default function Home() {
           <div className="w-md">
             <h1 className="text-xl">趣味</h1>
             <p>
-              学生時代は競技プログラミングをしていましたが今はもうしていません。
-              今は年に1度ISUCONに出ています。IQ1というチームで出ています。
+              パソコン: ミドルウェアくらいからバックエンドからフロントエンドまで気が向いたものは何でも触ります。
             </p>
+            <p>
+              登山: 日帰りできるゆるい登山が好きです。
+            </p>
+          </div>
+        </div>
+        <div className="my-5 flex justify-center">
+          <div className="w-md">
+            <h1 className="text-xl">活動</h1>
+            <div>
+              <h2>2024</h2>
+              <ul className="list-disc list-inside">
+                <li>ISUCON14 12位(チームIQ1)</li>
+                <li>VチャレTech参加</li>
+              </ul>
+            </div>
+            <div>
+              <h2>2023</h2>
+              <ul className="list-disc list-inside">
+                <li>ISUCON13 224位(チームIQ1)</li>
+              </ul>
+            </div>
+            <div>
+              <h2>2021</h2>
+              <ul className="list-disc list-inside">
+                <li>ISUCON11 36位(チームIQ1)</li>
+              </ul>
+            </div>
+            <div>
+              <h2>2019</h2>
+              <ul className="list-disc list-inside">
+                <li>ICFPC 45位(チームIQ1)</li>
+                <li>SPLASH/REBEL2019 <a href="https://dl.acm.org/doi/10.1145/3358503.3361276" target="_blank" className="text-blue-500 hover:text-blue-800">論文</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>2018</h2>
+              <ul className="list-disc list-inside">
+                <li>ISUCON8 本選(チームIQ1)</li>
+                <li>ISUCON8 予選 61位(チームIQ1)</li>
+                <li>ICPC 国内予選 22位(チームIQ1)</li>
+              </ul>
+            </div>
+            <div>
+              <h2>2017</h2>
+              <ul className="list-disc list-inside">
+                <li>ICPC アジア地区予選 つくば大会 14位(チームIQ1)</li>
+                <li>ICPC アジア地区予選 ナコンパトム大会 15位(チームIQ1)</li>
+                <li>ICPC 国内予選 20位(チームIQ1)</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
